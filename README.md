@@ -270,3 +270,87 @@ Open Terminal and navigate to the project directory:
 
 ```bash
 cd ~/Downloads/Internship\ 2.0/MCQ_Socket_Project
+
+### Start the Professor Dashboard
+
+Open Terminal and navigate to the project directory:
+
+```bash
+cd ~/Downloads/Internship\ 2.0/MCQ_Socket_Project
+
+Run the Professor Dashboard:
+python3 professor_gui.py
+
+Once the Professor Dashboard opens, click the Start Quiz Server button to start the quiz server.
+
+### Key Concepts Demonstrated
+
+This project demonstrates the practical implementation of:
+
+* Client-server architecture
+* TCP communication
+* Socket programming
+* Concurrent client handling
+* Python multithreading
+* Graphical user interface development
+* File handling
+* CSV data storage
+* JSON data storage
+* Randomized data selection
+* Real-time activity monitoring
+
+Advantages
+
+* Supports multiple students
+* Provides automatic quiz evaluation
+* Reduces manual checking
+* Generates randomized quizzes
+* Stores results automatically
+* Provides live student monitoring
+* Offers separate interfaces for students and professors
+* Provides a user-friendly graphical interface
+* Allows quiz creation without directly editing Python code
+
+Limitations
+
+* The current implementation is mainly designed for local or classroom network use.
+* CSV files are used instead of a full database.
+* Advanced user authentication is not implemented.
+* Network communication is not encrypted.
+* The system requires the quiz server to be running before students can connect.
+
+Future Enhancements
+
+Future versions of the project can include:
+
+* Student and professor authentication
+* Database integration using SQLite or MySQL
+* Quiz timers
+* Automatic submission when time expires
+* Subject-wise quizzes
+* Difficulty levels
+* Negative marking
+* Detailed result analytics
+* Performance graphs
+* PDF result reports
+* Encrypted client-server communication
+* Internet-based deployment
+* Web and mobile application support
+
+Conclusion
+
+The Classroom MCQ Quiz System is a multi-client network application developed to demonstrate the practical use of Python socket programming.
+
+The project combines TCP communication, multithreading, graphical user interfaces, randomized quiz generation, automatic evaluation, live student monitoring, and persistent result storage.
+
+It provides separate interfaces for students and professors, making it a complete classroom quiz management system while demonstrating important concepts of computer networking and Python application development.
+
+### Author
+
+Kratika Yadav
+
+Project
+
+Classroom MCQ Quiz System
+
+Developed using Python Socket Programming and Tkinter.
