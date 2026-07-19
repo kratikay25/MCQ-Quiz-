@@ -1,0 +1,7 @@
+HOST = "127.0.0.1"
+PORT = 5000
+
+BUFFER_SIZE = 4096
+MAX_CLIENTS = 50
+
+LOG_FILE = "quiz_server.log"
